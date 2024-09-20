@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDoS Protection Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="navbar">
+            <h1>DDoS Protection System</h1>
+        </header>
+
+        <!-- Main Dashboard Section -->
+        <main>
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-text">
+                    <h2>Protect and Monitor Your Web Application</h2>
+                    <p>Stay ahead of threats with real-time monitoring, traffic analysis, and DDoS protection.</p>
+                    <button id="checkTraffic" class="primary-button">Check Traffic Status</button>
+                </div>
+                <div id="trafficStatus" class="status-message"></div>
+            </section>
+
+            <!-- Traffic Statistics Section -->
+            <section class="traffic-stats">
+                <h3>Traffic Overview</h3>
+                <div class="stat-grid">
+                    <div class="stat-box">
+                        <p id="requestCount">Total Requests: 0</p>
+                    </div>
+                    <div class="stat-box">
+                        <p id="uniqueIps">Unique IPs: 0</p>
+                    </div>
+                    <div class="stat-box">
+                        <canvas id="trafficChart" width="400" height="200"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section class="features">
+                <div class="feature">
+                    <h3>Real-Time Monitoring</h3>
+                    <p>Get detailed insights into incoming traffic in real-time.</p>
+                </div>
+                <div class="feature">
+                    <h3>Rate Limiting</h3>
+                    <p>Automatically manage high-traffic bursts and prevent DDoS attacks.</p>
+                </div>
+                <div class="feature">
+                    <h3>IP Logging</h3>
+                    <p>Track and log IP addresses to identify potential threats.</p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 DDoS Protection System | Developed with Flask & PowerShell</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

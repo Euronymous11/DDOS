@@ -1,0 +1,188 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:2024-09-18 20:08:35.847423 - IP: 127.0.0.1, Path: /
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:08:35] "GET / HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:08:35.857640 - IP: 127.0.0.1, Path: /static/styles.css
+INFO:root:2024-09-18 20:08:35.859833 - IP: 127.0.0.1, Path: /static/script.js
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:08:35] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:08:35] "GET /static/script.js HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:10:51.326958 - IP: 127.0.0.1, Path: /traffic-status
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:10:51] "GET /traffic-status HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:35.773173 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:35] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:36.196592 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:36] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:36.420576 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:36] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:36.644968 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:36] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:36.870868 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:36] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:37.104247 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:37] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:37.339483 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:37] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:37.578555 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:37] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:37.823322 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:37] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:38.055541 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:38] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:38.298389 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:38] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:38.535613 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:38] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:38.773403 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:38] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:39.002488 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:39] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:39.231960 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:39] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:39.463135 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:39] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:39.693379 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:39] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:39.920506 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:39] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:40.163401 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:40] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:40.393589 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:40] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:40.633672 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:40] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:40.873921 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:40] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:41.106361 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:41] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:41.344195 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:41] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:41.572951 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:41] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:41.796396 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:41] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:42.024929 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:42] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:42.252905 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:42] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:42.482019 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:42] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:42.712793 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:42] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:42.944404 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:42] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:43.183433 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:43] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:43.419486 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:43] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:43.660362 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:43] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:43.910339 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:43] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:44.139060 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:44] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:44.374330 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:44] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:44.613308 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:44] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:44.848192 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:44] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:45.073422 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:45] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:45.299192 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:45] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:45.537453 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:45] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:45.773101 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:45] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:46.013075 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:46] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:46.249804 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:46] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:46.477736 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:46] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:46.719504 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:46] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:46.957013 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:46] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:47.186710 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:47] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:47.423547 - IP: 127.0.0.1, Path: /rate-limited
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:47] "GET /rate-limited HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:48.011922 - IP: 127.0.0.1, Path: /traffic-status
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:48] "GET /traffic-status HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:49.278808 - IP: 127.0.0.1, Path: /traffic-status
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:49] "GET /traffic-status HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:51.745629 - IP: 127.0.0.1, Path: /traffic-status
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:51] "GET /traffic-status HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:53.653736 - IP: 127.0.0.1, Path: /
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:53] "GET / HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:11:53.657464 - IP: 127.0.0.1, Path: /static/styles.css
+INFO:root:2024-09-18 20:11:53.658492 - IP: 127.0.0.1, Path: /static/script.js
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:root:2024-09-18 20:11:56.497348 - IP: 127.0.0.1, Path: /traffic-status
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:11:56] "GET /traffic-status HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:12:00.537318 - IP: 127.0.0.1, Path: /traffic-status
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:12:00] "GET /traffic-status HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:12:04.902983 - IP: 127.0.0.1, Path: /
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:12:04] "GET / HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:12:04.906009 - IP: 127.0.0.1, Path: /static/styles.css
+INFO:root:2024-09-18 20:12:04.906009 - IP: 127.0.0.1, Path: /static/script.js
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:12:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:12:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:root:2024-09-18 20:12:10.191328 - IP: 127.0.0.1, Path: /traffic-status
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:12:10] "GET /traffic-status HTTP/1.1" 200 -
+INFO:root:2024-09-18 20:16:55.941014 - IP: 127.0.0.1, Path: /traffic-status
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2024 20:16:55] "GET /traffic-status HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:2024-09-19 15:50:04.450101 - IP: 127.0.0.1, Path: /
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:50:04] "GET / HTTP/1.1" 200 -
+INFO:root:2024-09-19 15:50:04.462089 - IP: 127.0.0.1, Path: /static/styles.css
+INFO:root:2024-09-19 15:50:04.462089 - IP: 127.0.0.1, Path: /static/script.js
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:50:04] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:50:04] "GET /static/script.js HTTP/1.1" 200 -
+INFO:root:2024-09-19 15:50:04.665873 - IP: 127.0.0.1, Path: /favicon.ico
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:50:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:2024-09-19 15:51:51.757882 - IP: 127.0.0.1, Path: /
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:51:51] "GET / HTTP/1.1" 200 -
+INFO:root:2024-09-19 15:51:51.764881 - IP: 127.0.0.1, Path: /static/styles.css
+INFO:root:2024-09-19 15:51:51.765876 - IP: 127.0.0.1, Path: /static/script.js
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:51:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:51:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:root:2024-09-19 15:52:06.127927 - IP: 127.0.0.1, Path: /traffic-status
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:52:06] "GET /traffic-status HTTP/1.1" 200 -
+INFO:root:2024-09-19 15:52:15.871317 - IP: 127.0.0.1, Path: /traffic-status
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:52:15] "GET /traffic-status HTTP/1.1" 200 -
+INFO:root:2024-09-19 15:52:16.963333 - IP: 127.0.0.1, Path: /traffic-status
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:52:16] "GET /traffic-status HTTP/1.1" 200 -
+INFO:root:2024-09-19 15:52:17.415094 - IP: 127.0.0.1, Path: /traffic-status
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:52:17] "GET /traffic-status HTTP/1.1" 200 -
+INFO:root:2024-09-19 15:52:18.635097 - IP: 127.0.0.1, Path: /traffic-status
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:52:18] "GET /traffic-status HTTP/1.1" 200 -
+INFO:root:2024-09-19 15:52:38.646470 - IP: 127.0.0.1, Path: /traffic-status
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:52:38] "GET /traffic-status HTTP/1.1" 200 -
+INFO:root:2024-09-19 15:52:41.689939 - IP: 127.0.0.1, Path: /
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:52:41] "GET / HTTP/1.1" 200 -
+INFO:root:2024-09-19 15:52:41.696480 - IP: 127.0.0.1, Path: /static/styles.css
+INFO:root:2024-09-19 15:52:41.696480 - IP: 127.0.0.1, Path: /static/script.js
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:52:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:52:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:root:2024-09-19 15:52:43.786959 - IP: 127.0.0.1, Path: /traffic-status
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:52:43] "GET /traffic-status HTTP/1.1" 200 -
+INFO:root:2024-09-19 15:53:41.377984 - IP: 127.0.0.1, Path: /
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:53:41] "GET / HTTP/1.1" 200 -
+INFO:root:2024-09-19 15:53:41.388364 - IP: 127.0.0.1, Path: /static/styles.css
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:53:41] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:root:2024-09-19 15:53:41.393826 - IP: 127.0.0.1, Path: /static/script.js
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:53:41] "GET /static/script.js HTTP/1.1" 200 -
+INFO:root:2024-09-19 15:53:41.552640 - IP: 127.0.0.1, Path: /favicon.ico
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:53:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:2024-09-19 15:54:11.577810 - IP: 127.0.0.1, Path: /traffic-status
+INFO:werkzeug:127.0.0.1 - - [19/Sep/2024 15:54:11] "GET /traffic-status HTTP/1.1" 200 -
